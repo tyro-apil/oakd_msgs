@@ -10,6 +10,7 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SpatialBall.msg"
   "msg/SpatialBallArray.msg"
+  "msg/StatePose.msg"
   DEPENDENCIES std_msgs geometry_msgs 
 )
 
