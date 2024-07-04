@@ -1,0 +1,2 @@
+sensor_msgs/Image image
+nav_msgs/Odometry pose_capture
